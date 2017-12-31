@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset = "utf8"/>
+	<title>Socket.IO Chat SaranyaR</title>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="http://localhost:2406/scripts.js"></script>
+	<link rel="stylesheet" href="http://localhost:2406/styles.css"/>
+</head>
+<body> 
+<h1> Chat Service with Private Messaging!</h1>
+	<div id="contents">
+	
+		<div id="mainChatApp">
+			<textarea id="messagesInChatBox"></textarea>
+			<input id="messageEnteredInKeyboard">
+		</div>
+		
+		<div id="chattersList">
+		    <ul>Users: </ul>
+			<ul id="userList">
+			</ul>
+		</div>
+		
+	</div>
+</body>
+</html>

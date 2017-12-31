@@ -1,0 +1,65 @@
+body{
+	word-spacing: 10px;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+
+}
+h1{
+    color: blue;
+    font-size: 50px;
+
+}
+.chatter{
+	text-decoration: none;
+	color: lightgreen;
+}
+
+.blacklisted{
+	text-decoration: line-through;
+	color: red;
+}
+#messagesInChatBox{
+	height: 100%;
+	resize: none;
+	pointer-events:none;
+	font-size: 20px;
+	font-style: oblique;
+	border: solid 1px white;
+	width: 100%;
+	background-color: black;
+	color: white;
+	padding-left: 10;
+}
+
+#messageEnteredInKeyboard{
+    border: solid 1px white;
+	width: 100%;
+	font-size: 20px;
+	color: orange;
+	height: 50%;
+	background-color: black;
+	padding-left: 10;
+	
+}
+	
+#contents{
+	width: 100%;
+	height:200px;
+}
+
+#mainChatApp{
+	width: 60%;
+	margin-right: 40px;
+	float: left;
+	height: 100%;
+	
+}
+
+#chattersList{
+	overflow: auto;
+	list-style-type: none;
+	border: solid 1px white;
+	height:100%;
+
+}
